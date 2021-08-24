@@ -1,4 +1,29 @@
+body {
+  background-color: darkblue;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+
 .navbar-brand img {
   max-height: 40px;
+}
+
+.nabvar {
+  max-height: 20px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0c2461 !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rosybrown !important;
 }
 /*# sourceMappingURL=main.css.map */
