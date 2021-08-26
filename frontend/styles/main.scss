@@ -1,5 +1,5 @@
 body {
-    // background-color: darkblue;
+    background-color: #192a56;
     font-family: 'Assistant', sans-serif;
     color: #071C4D;
 }
@@ -68,4 +68,30 @@ header {
         font-weight: bold;
         color: white;
     }
+}
+
+
+
+// main content
+
+main {
+    width: 100%;
+    height: 400px;
+    background-color: #192a56 !important;
+    .statistik {
+        
+        margin : auto;
+        max-width: 720px;
+        height: 100px;
+        align-items: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+
+        p{
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+
 }
