@@ -75,14 +75,14 @@ header {
 // main content
 
 main {
-    width: 100%;
-    height: 400px;
+    margin-top: -40px !important;
+    margin : auto;
+    margin-bottom: 0;
+    max-width: 720px;
+    height: 100px;
     background-color: #192a56 !important;
     .statistik {
-        margin-top: -120px !;
-        margin : auto;
-        max-width: 720px;
-        height: 100px;
+        
         align-items: center;
         background-color: white;
         display: flex;
@@ -94,4 +94,139 @@ main {
         }
     }
 
+}
+
+// wisata popular
+.wisata-container{
+    margin-top: -10px !important;
+    width: 100%;
+    height: 400px;
+    // background-color: red;
+
+    .wisata-popular {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        h2,p {
+            color: white;
+        }
+    
+        h2 {
+            font-family: 'Playfair Display',serif;
+            font-weight: bold;
+        }
+    }
+
+    .container-card{
+        display: flex;
+        justify-content: space-around;
+
+        .card-satu {
+            height: 404px;
+            width: 304px;
+            background-image: url('/frontend/images/card1.jpg');
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            border-radius: 2px;
+
+            .btn-view{
+                height: 40px;
+                text-align: center;
+                margin-bottom: 15px;
+
+            }
+        }
+    
+        .card-dua {
+            height: 404px;
+            width: 304px;
+            background-image: url('/frontend/images/card2.jpg');
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            border-radius: 2px;
+
+            .btn-view{
+                height: 40px;
+                text-align: center;
+                margin-bottom: 15px;
+
+            }
+        }
+    
+        .card-tiga {
+            height: 404px;
+            width: 304px;
+            background-image: url('/frontend/images/card3.jpg');
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            border-radius: 2px;
+
+            .btn-view{
+                height: 40px;
+                text-align: center;
+                margin-bottom: 15px;
+
+            }
+        }
+    
+        .card-empat{
+            height: 404px;
+            width: 304px;
+            background-image: url('/frontend/images/card4.jpg');
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            border-radius: 2px;
+
+            .btn-view{
+                height: 40px;
+                text-align: center;
+                margin-bottom: 15px;
+
+            }
+        }
+    }
+
+    
+}
+
+
+// our networks
+
+.our-networks-container {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    padding-top: 170px;
+    // padding-left: 90px;
+    display: flex;
+    justify-content: space-around;
+
+    .our-networks{
+        margin-top: 100px;
+
+        h2 {
+            font-size: 50px;
+            font-weight: bold;
+            font-family: 'Playfair Display',serif;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .logo-sponsor {
+        margin-top: 100px;
+
+        img {
+            height: 120px;
+        }
+    }
 }
