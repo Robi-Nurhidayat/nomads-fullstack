@@ -230,3 +230,40 @@ main {
         }
     }
 }
+
+
+// testimonial-container
+
+.testimonial-container {
+    height: 400px;
+    background-color: white;
+
+    h2 {
+        font-family: 'Playfair Display',serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    h2,p {
+        text-align: center;
+    }
+    p{
+        font-weight: 25px;
+    }
+
+    .card-testimonial {
+        display: flex;
+        justify-content: space-around;
+        
+        .card {
+            margin-top: 50px;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 3px #636e72;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
