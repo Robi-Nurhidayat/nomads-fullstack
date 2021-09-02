@@ -290,7 +290,7 @@ main .statistik p {
 }
 
 .section-footer-container .copyright {
-  border-top: 2px solid black;
+  border-top: 1px solid #95a5a6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
